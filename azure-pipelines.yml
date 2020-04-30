@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: '/subscriptions/cc0f5744-0ab6-460d-9782-1a7ac3c83f8b/resourceGroups/ionelresource/providers/Microsoft.Compute/images/ionelmachine-image-20200402001739'
+pool: mypool
 
 variables:
   solution: '**/*.sln'
